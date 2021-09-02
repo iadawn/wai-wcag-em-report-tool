@@ -10,6 +10,10 @@
         WCAG-EM R<span class="display-phablet">eport </span>T<span class="display-phablet">ool</span>
       </div>
       <div class="tool-header-logo">
+	    <a href="https://gov.scot/"><img
+		    alt="Scottish Government"
+			src={`${$basepath}/images/scottishgovernment.png`}
+		  /></a>
         <a href="http://w3.org/"><img
             alt="W3C"
             src={`${$basepath}/images/w3c.svg`}

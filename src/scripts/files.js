@@ -6,7 +6,7 @@ export function downloadFileHTML({ contents, name = 'download.txt', type = 'text
   let file;
 
   const removeEls = Array.from(
-    htmlDocument.querySelectorAll("button, input, aside, footer, .Controls, #site-header, .Nav, a")
+    htmlDocument.querySelectorAll("button, input, aside, footer, .Controls, #site-header, .Nav, a, tr th:nth-child(4), tr td:nth-child(4)")
   );
 
   removeEls.forEach((el) => {
